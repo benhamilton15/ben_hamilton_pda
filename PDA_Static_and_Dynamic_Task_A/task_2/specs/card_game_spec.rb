@@ -19,4 +19,10 @@ def test_highest_card
   assert_equal(@card2,CardGame.highest_card(@card1, @card2))
 end
 
+def test_cards_total
+  assert_equal("You have a total of 10",CardGame.cards_total(@cards))
+end
+
+
+
 end

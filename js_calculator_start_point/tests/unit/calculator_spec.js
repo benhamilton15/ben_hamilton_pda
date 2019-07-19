@@ -35,7 +35,7 @@ describe('calculator', function () {
     assert.strictEqual(calculator.runningTotal, 3)
   })
 
-  it('can concatenate multiple numbers clicked ', function(){
+  it('can concatenate multiple numbers clicked one after the other', function(){
     calculator.numberClick(3)
     calculator.numberClick(4)
     calculator.numberClick(9)
